@@ -1,0 +1,7 @@
+
+body { overflow: hidden; }
+#ContactManager { overflow: hidden; }
+.container { overflow: hidden; }
+#contacts       { width: 100%; overflow: hidden; }
+#contactslist   { width: 100%; float: left; }
+#scrollcontroller   { width: 30px; float: left; }

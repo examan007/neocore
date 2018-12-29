@@ -1,0 +1,111 @@
+[
+  {
+    "timestamp": "1518480463862",
+    "datestamp": "Tue Feb 13 00:07:43 UTC 2018",
+    "user": "class com.schedule1.datapassports.audit.agent.Server",
+    "query": "startup",
+    "sequence": "0",
+    "count": 1984,
+    "test": true
+  },
+  {
+    "timestamp": "1518465485087",
+    "datestamp": "Mon Feb 12 14:58:05 EST 2018",
+    "user": "class com.schedule1.datapassports.audit.agent.Server$OutboundSpool",
+    "query": "Complete termination",
+    "sequence": "9",
+    "count": 1983
+  },
+  {
+    "timestamp": "1518465484086",
+    "datestamp": "Mon Feb 12 14:58:04 EST 2018",
+    "user": "class com.schedule1.datapassports.audit.agent.Server$InboundSpool",
+    "query": "Complete termination",
+    "sequence": "8",
+    "count": 1982
+  },
+  {
+    "user": "jhayes",
+    "query": "CollectLimit 21\n+- *FileScan text [value#0] Batched: false, Format: Text, Location: InMemoryFileIndex[file:/C:/Users/jhayes/dp20180211/audit/data/users.txt], PartitionFilters: [], PushedFilters: [], ReadSchema: struct\u003cvalue:string\u003e\n",
+    "duration": "177254429",
+    "datestamp": "Mon Feb 12 14:57:59 EST 2018",
+    "timestamp": "1518465479161",
+    "device": "CA-JHAYES",
+    "result": "Success",
+    "sequence": "7",
+    "count": 1981
+  },
+  {
+    "user": "jhayes",
+    "query": "CollectLimit 21\n+- *FileScan text [value#0] Batched: false, Format: Text, Location: InMemoryFileIndex[file:/C:/Users/jhayes/dp20180211/audit/data/users.txt], PartitionFilters: [], PushedFilters: [], ReadSchema: struct\u003cvalue:string\u003e\n",
+    "duration": "177254429",
+    "datestamp": "Mon Feb 12 14:57:59 EST 2018",
+    "timestamp": "1518465479161",
+    "device": "CA-JHAYES",
+    "result": "Success",
+    "sequence": "6",
+    "count": 1980
+  },
+  {
+    "user": "jhayes",
+    "query": "CollectLimit 21\n+- *FileScan text [value#0] Batched: false, Format: Text, Location: InMemoryFileIndex[file:/C:/Users/jhayes/dp20180211/audit/data/users.txt], PartitionFilters: [], PushedFilters: [], ReadSchema: struct\u003cvalue:string\u003e\n",
+    "duration": "1271654380",
+    "datestamp": "Mon Feb 12 14:57:58 EST 2018",
+    "timestamp": "1518465478905",
+    "device": "CA-JHAYES",
+    "result": "Success",
+    "sequence": "5",
+    "count": 1979
+  },
+  {
+    "user": "jhayes",
+    "query": "CollectLimit 21\n+- *FileScan text [value#0] Batched: false, Format: Text, Location: InMemoryFileIndex[file:/C:/Users/jhayes/dp20180211/audit/data/users.txt], PartitionFilters: [], PushedFilters: [], ReadSchema: struct\u003cvalue:string\u003e\n",
+    "duration": "1271654380",
+    "datestamp": "Mon Feb 12 14:57:58 EST 2018",
+    "timestamp": "1518465478905",
+    "device": "CA-JHAYES",
+    "result": "Success",
+    "sequence": "4",
+    "count": 1978
+  },
+  {
+    "timestamp": "1518465474596",
+    "datestamp": "Mon Feb 12 14:57:54 EST 2018",
+    "user": "class com.schedule1.datapassports.audit.agent.Server",
+    "query": "startup",
+    "sequence": "3",
+    "count": 1977
+  },
+  {
+    "timestamp": "1518462167258",
+    "datestamp": "Mon Feb 12 14:02:47 EST 2018",
+    "user": "class com.schedule1.datapassports.audit.agent.Server$InboundSpool",
+    "query": "Complete termination",
+    "sequence": "2",
+    "count": 1976
+  },
+  {
+    "timestamp": "1518464483347",
+    "datestamp": "Mon Feb 12 19:41:23 UTC 2018",
+    "user": "class com.schedule1.datapassports.audit.agent.Server",
+    "query": "startup",
+    "sequence": "1",
+    "count": 1975
+  },
+  {
+    "timestamp": "1518464437925",
+    "datestamp": "Mon Feb 12 19:40:37 UTC 2018",
+    "user": "class com.schedule1.datapassports.audit.agent.Server$InboundSpool",
+    "query": "Complete termination",
+    "sequence": "0",
+    "count": 1974
+  },
+  {
+    "timestamp": "1518464438926",
+    "datestamp": "Mon Feb 12 19:40:38 UTC 2018",
+    "user": "class com.schedule1.datapassports.audit.agent.Server$OutboundSpool",
+    "query": "Complete termination",
+    "sequence": "3",
+    "count": 1973
+  }
+]

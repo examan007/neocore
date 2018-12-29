@@ -1,0 +1,117 @@
+{
+	"map" :
+	[
+    {
+      "Key": "Stylist",
+      "Title": "",
+      "Operation": "-home",
+      "Name": "Stylist",
+      "Table": "",
+      "State": "list"
+    },
+    {
+      "Key": "Client",
+      "Title": "",
+      "Operation": "-home",
+      "Filter": "hidden",
+      "Name": "Client",
+      "Table": "",
+      "State": "list"
+    },
+    {
+      "Key": "Salon",
+      "Title": "",
+      "Operation": "-home",
+      "Filter": "",
+      "Name": "Salon",
+      "Table":  "",
+      "State": "list"
+    },
+    {
+      "Key": "Event",
+      "Action": "Save|Back|Discard",
+      "Focus":  "title",
+      "Filter": "hidden",
+      "Name": "Event",
+      "Title": "",
+      "Operation": "-about",
+      "Method": "/private/Success.json"
+    },
+    {
+      "Key": "Service",
+      "Action": "Save|Back",
+      "Focus":  "",
+      "Filter": "hidden",
+      "Name": "Service",
+      "Title": "",
+      "Operation": "-about",
+      "Method": "/private/Success.json"
+    },
+    {
+      "Key": "Login",
+      "Action": "Go|New",
+      "Focus":  "Name",
+      "Name": "Login",
+      "Title": "",
+      "Operation": "-contact",
+      "Method": "/private/Success.json"
+    },
+    {
+      "Key": "Edit",
+      "Action": "Save|Back",
+      "Focus": "Name",
+      "Title": "",
+      "Name": "Edit",
+      "Operation": "-contact",
+      "Filter": "private",
+      "Method": "/private/Success.json"
+    },
+    {
+      "Key": "New",
+      "Action": "Create",
+      "Focus":  "Name",
+      "Title": "",
+      "Name": "New",
+      "Operation": "-contact",
+      "Method": "/private/Success.json"
+    },
+    {
+      "Key": "Today",
+      "Method": "changeView",
+      "Argument":  "agendaDay",
+      "Title": "",
+      "Name": "Today",
+      "Operation": "-about",
+      "Filter": "",
+      "Table": ""
+    },
+    {
+      "Key": "Week",
+      "Method": "changeView",
+      "Argument":  "agendaWeek",
+      "Title": "",
+      "Name": "Week",
+      "Operation": "-about",
+      "Filter": "",
+      "Table": ""
+    },
+    {
+      "Key": "Month",
+      "Method": "changeView",
+      "Argument":  "month",
+      "Title": "",
+      "Name": "Month",
+      "Operation": "-about",
+      "Filter": "",
+      "Table": ""
+    },
+    {
+      "Key": "List",
+      "Title": "",
+      "Name": "List",
+      "Operation": "-about",
+      "Filter": "private",
+      "Table": ""
+    }
+	]
+}

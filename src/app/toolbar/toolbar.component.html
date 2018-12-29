@@ -1,0 +1,49 @@
+<!--suppress BuyFluidPluginNoteInspection -->
+<div id="Toolbar" class="smalltool" ng-app="routerApp">
+  <nav>
+    <table id="Toolbar-Table">
+      <tr id="Toolbar-Row">
+        <td *ngFor="let obj of UIRouter.objects"
+            (mouseover)="UIRouter.select(obj, true);"
+            (mouseleave)="UIRouter.select(obj, false);"
+            (click)="UIRouter.checkClick($event, obj);"
+            class="Toolbar-Data"
+        >
+          <button id="Toolbar-Button-{{obj.Key}}"
+                  class="Toolbar-Button"
+                  uiSrefActive="selected"
+          >
+            <span id="Toolbar-Key-{{obj.Key}}"
+                  class="Toolbar-Class-{{obj.Key}">
+              {{obj.Name}}
+            </span>
+          </button>
+          <div id="Dropdown-{{obj.Key}}"
+               class="Dropdown-Data"
+               style="display:block;">
+            <ul id="Dropdown-List-{{obj.Key}}"
+                class="Dropdown-List"
+            >
+              <li *ngFor="let opt of UIRouter.options[obj.Key]"
+                  id="Dropdown-{{obj.Key}}-{{opt.Key}}"
+                  class="Dropdown-Option"
+                  style="display:none"
+                  (mouseover)="UIRouter.execopt(obj, opt, true);"
+                  (mouseleave)="UIRouter.execopt(obj, opt, false);">
+                <div id="Dropdown-Option-{{opt.Key}}" class="Dropdown-Instance">
+                  <button class="Dropdown-Button"
+                          uiSrefActive="selected"
+                  >
+                    <span id="Dropdown-Key-{{opt.Key}}" class="Dropdown-Class">
+                        {{opt.Name}}
+                    </span>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </nav>
+</div>

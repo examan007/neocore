@@ -1,0 +1,133 @@
+{
+  "map": [
+    {
+      "Parameter": "Account",
+      "DisplayName": "New User"
+    },
+    {
+      "Parameter": "Find",
+      "DisplayName": "Search"
+    },
+    {
+      "Parameter": "ObjectId",
+      "DisplayStyle": "Hidden",
+      "Description": "Unique object identifier."
+    },
+    {
+      "Parameter": "Authentication",
+      "DisplayStyle": "Hidden",
+      "Description": "Authentication flag."
+    },
+    {
+      "Parameter": "UserId",
+      "Description": "Unique object identifier."
+    },
+    {
+      "Parameter": "allDay",
+      "DisplayStyle": "Hidden",
+      "Description": "All day flag."
+    },
+    {
+      "Parameter": "start",
+      "Translate": "datetime",
+      "Description": "Start date and time of event."
+    },
+    {
+      "Parameter": "end",
+      "DisplayName": "duration",
+      "Translate": "duration",
+      "Description": "Time duration of event from start."
+    },
+    {
+      "Parameter": "Path",
+      "DisplayStyle": "Hidden",
+      "Description": "Path to user object."
+    },
+    {
+      "Parameter": "Class",
+      "DisplayStyle": "Hidden",
+      "Description": "Class of object i.e. Stylist, Salon, or Client."
+    },
+    {
+      "Parameter": "Confirm",
+      "DisplayStyle": "Hidden",
+      "Description": "Password confirmation copy."
+    },
+    {
+      "Parameter": "Password",
+      "DisplayStyle": "Hidden",
+      "Description": "Password."
+    },
+    {
+      "Parameter": "Confirm",
+      "DisplayStyle": "Hidden",
+      "Description": "Password confirmation copy."
+    },
+    {
+      "Parameter": "Message",
+      "DisplayStyle": "Hidden",
+      "Description": "Server response message."
+    },
+    {
+      "Parameter": "Status",
+      "DisplayStyle": "Hidden",
+      "ParamType": "Select",
+      "ParamValues": "Active|Locked",
+      "Description": "Current object status."
+    },
+    {
+      "Parameter": "Type",
+      "DisplayStyle": "Hidden",
+      "ParamType": "Select",
+      "ParamValues": "Stylist|Salon|Client",
+      "Description": "Application object types."
+    },
+    {
+      "Parameter": "lat",
+      "DisplayStyle": "Hidden",
+      "Description": "Locationn latitude."
+    },
+    {
+      "Parameter": "lng",
+      "DisplayStyle": "Hidden",
+      "Description": "Locationn longitude."
+    },
+    {
+      "Parameter": "ScopeTableRows",
+      "ParamValues": "9",
+      "Description": "Number of rows in scope table."
+    },
+    {
+      "Parameter": "ScopeInvertColumns",
+      "ParamValues": "true",
+      "Description": "Control to invert order of columns."
+    },
+    {
+      "Parameter": "Services",
+      "ParamType": "Select",
+      "ParamValues": "2|3|6|7|8|0",
+      "ParamText": "Approved|In Progress|Submitted|Submitted (Prelimminary)|Approved (Prelimminary)|Denied",
+      "Description": "Type of service available."
+    },
+    {
+      "Parameter": "name",
+      "DisplayName": "Name"
+    },
+    {
+      "Parameter": "formatted_address",
+      "DisplayName": "Address"
+    },
+    {
+      "Parameter": "formatted_phone_number",
+      "DisplayName": "Phone Number"
+    },
+    {
+      "Parameter": "GivenName",
+      "DisplayName": "Name"
+    },
+    {
+      "Parameter": "LastParam",
+      "DisplayName": "Unknown"
+    }
+  ]
+}
